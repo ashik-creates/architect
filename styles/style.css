@@ -8,7 +8,19 @@
 
 .paragraph-style{
     font-size: 1rem;
+    color: #727272;
     line-height: 1.5rem;
+}
+
+
+
+.btn-primary{
+    background-color: #FF900E;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
 }
 
 /* nav related css */
@@ -44,10 +56,52 @@ header{
     line-height: 1.5rem;
 }
 
+/* banner related styles */
+
+.banner{
+    max-width: 1160px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+
+.banner-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+    
+}
+
+.banner-description{
+    margin-bottom: 1rem;
+}
+
+.banner-image{
+    max-width: 100%;
+    margin-top: 4rem;
+}
+
+.banner-image img{
+    width: 100%;
+     
+}
+
+.banner-details{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
 @media  screen and (max-width: 576px) {
-    header{
-        padding: 1.5rem;
+    .btn-primary{
+    background-color: #FF900E;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 20px;
     }
+    
     .navbar{
         flex-direction: column;
         justify-content: center;
@@ -64,6 +118,13 @@ header{
         justify-content: center;
         gap: 1.5rem;
     }
+
+    /* banner */
+
+    .banner-heading{
+        font-size: 2.5rem;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
