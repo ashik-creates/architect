@@ -132,6 +132,58 @@ main{
     width: 100%;
 }
 
+/* love and enjoy section */
+
+
+.love-container{
+    display: flex;
+    gap: 4rem;
+    margin: 5rem 0;
+}
+
+.love-image img{
+    width: 100%;
+    display: block;
+}
+
+.love-details{
+    max-width: 520px;
+}
+
+.love-card{
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+.love-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #FF900E;
+    padding-left:1.3rem ;
+}
+
+#big-btn{
+    padding: 2rem;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: -70px;
+    margin-top: -70px;
+}
+
+#year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#experience{
+    font-size: 1.5rem;
+    font-size:500;
+}
 @media  screen and (max-width: 576px) {
     header{
         padding-top: 2rem;
@@ -183,6 +235,22 @@ main{
         grid-template-columns: 1fr;
     }
 
+    /* love and enjoy */
+    .love-container{
+        flex-direction: column;
+    }
+
+    #big-btn{
+        margin: 8px auto;
+        padding: 1rem;
+    }
+    .love-heading{
+        font-size: 2rem;
+    }
+
+    #year{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -194,5 +262,13 @@ main{
 
     .our-feature-details{
         flex-direction: column-reverse;
+    }
+
+    .love-container{
+        flex-direction: column;
+    }
+
+    #big-btn{
+        margin: 1rem 0;
     }
 }
