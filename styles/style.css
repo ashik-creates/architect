@@ -388,4 +388,8 @@ footer p {
         gap: 4rem;
         justify-items: center;
     }
+
+    .love-details{
+        max-width: 100%;
+    }
 }
