@@ -238,6 +238,23 @@ main{
     filter: grayscale(100%);
 }
 
+/* footer */
+
+footer{
+    max-width: 1160px;
+    padding: 0 1.5rem;
+    margin: 120px auto;
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer p {
+    padding: 2rem;
+    color: #424242;
+    font-size: 1.3rem;
+}
+
 @media  screen and (max-width: 576px) {
     header{
         padding-top: 2rem;
